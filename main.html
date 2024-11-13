@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID-19 Statistics</title>
 </head>
 <body>
-    <!-- add table here -->
-	<table>
-		<thead>
-			<td class="blue">NAME</td>
-			<td class="blue">KILLS</td>
-			<td class="blue">SAVED</td>
-			<td class="blue">DEATHS</td>
-			<td class="blue">REVIVES</td>
-			<td class="blue">WIN</td>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Hackerman</td>
-				<td>10</td>
-				<td>0</td>
-				<td>1</td>
-				<td>0</td>
-				<td>0</td>
-			</tr>
-			<tr>
-				<td>Cool Doggo</td>
-				<td>13</td>
-				<td>4</td>
-				<td>8</td>
-				<td>7</td>
-				<td>1</td>
-			</tr>
-			<tr>
-				<td>Andrews</td>
-				<td>19</td>
-				<td>2</td>
-				<td>10</td>
-				<td>11</td>
-				<td>0</td>
-			</tr>
-			<tr>
-				<td>Strawberry</td>
-				<td>2</td>
-				<td>9</td>
-				<td>3</td>
-				<td>5</td>
-				<td>1</td>
-			</tr>
-		</tbody>
-	</table>
-
-        
+  <table>
+    <thead>
+      <tr>
+        <th>Country</th>
+        <th>Total Cases</th>
+        <th>Deaths</th>
+        <th>Recovered</th>
+        <th>Critical</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>USA</td>
+        <td class="highlight">34,000,000</td>
+        <td>600,000</td>
+        <td class="recovered">30,000,000</td>
+        <td class="critical">10,000</td>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td>32,000,000</td>
+        <td>450,000</td>
+        <td class="recovered">31,000,000</td>
+        <td class="critical">5,000</td>
+      </tr>
+      <tr>
+        <td>Brazil</td>
+        <td class="highlight">21,000,000</td>
+        <td>600,000</td>
+        <td class="recovered">20,000,000</td>
+        <td class="critical">3,000</td>
+      </tr>
+      <tr>
+        <td>Russia</td>
+        <td>11,000,000</td>
+        <td>300,000</td>
+        <td class="recovered">10,500,000</td>
+        <td class="critical">2,000</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">Data Source: World Health Organization</td>
+      </tr>
+    </tfoot>
+  </table>
 </body>
 </html>
